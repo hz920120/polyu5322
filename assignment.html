@@ -13,10 +13,15 @@
     path {
         fill: #962f3b;
     }
+    #svg-ele{
+        position: absolute;
+        width: 60%;
+        height: 60%;
+    }
 </style>
 <html lang="en"> <body>
 <h1>Our University Logo</h1>
-<svg width="800" height="600" >
+<svg viewBox="0 0 800 600" id="svg-ele" >
     <g id="logo" transform="translate(520 -131) rotate(45)" >
         <rect x="150" y="344" height="153" width="40" />
         <rect x="120" y="393" height="40" width="31" />
@@ -39,7 +44,7 @@
         <path d='M239 553 L287 553.5 Q262 540 250 513 L239 513 Z' />
     </g>
 
-    <g id="logo3"transform="translate(2 190) rotate(-45) " >
+    <g id="logo3" transform="translate(2 190) rotate(-45) " >
         <rect x="150" y="344" height="153" width="40" />
         <rect x="120" y="393" height="40" width="31" />
         <circle cx="120" cy="473" r="60" stroke-width="40" />
